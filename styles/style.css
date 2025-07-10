@@ -130,3 +130,72 @@ body{
     color: #00000074;
     margin: 0;
 }
+
+/* Review PAge  */
+
+
+.reviews-page{
+    margin: 0 200px 140px;
+    align-items: center;
+
+}
+.review-head{
+    text-align: center;
+}
+.review-head h1{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.reviews{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+.review{
+    font-weight: normal;
+    padding: 24px;
+    width: 300px;
+    border-radius: 14px;
+    box-shadow: 3px 3px 10px rgba(97, 85, 85, 0.744);
+    background-color: rgba(255, 255, 255, 0.509);
+}
+.comment{
+    padding: 24px 0;
+    gap: 8;
+}
+.comment h4 {
+    color: #1E1E1E;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+}
+.comment p{
+    color: #1E1E1E;
+    font-size: 18px;
+}
+
+.reviewer-details{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.reviewer-details img{
+    border-radius: 9999px;
+
+}
+.reviewer-info h5{
+    margin: 0;
+    color: #757575;
+    font-size: small;
+    font-weight: bold;
+}
+.reviewer-info p{
+    margin: 0;
+    color: #B3B3B3;
+    font-size: smaller;
+}
