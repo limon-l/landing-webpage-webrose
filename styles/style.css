@@ -33,9 +33,9 @@ body{
     background-position: center;
 }
 .button-universal{
-    padding: 10px 25px;
+    padding: 15px 25px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #4E47FF;
     color: white;
     font-size: 16px;
@@ -58,6 +58,7 @@ body{
     color: #4E47FF;
     text-decoration: none;
     font-size: 34px;
+    font-weight: 800;
 }
 .hero-content{
     text-align: center;
@@ -161,7 +162,7 @@ body{
     padding: 24px;
     width: 300px;
     border-radius: 14px;
-    box-shadow: 3px 3px 10px rgba(97, 85, 85, 0.744);
+    box-shadow: 0 4px 100px #F2EDED;
     background-color: rgba(255, 255, 255, 0.509);
 }
 .comment{
@@ -198,4 +199,35 @@ body{
     margin: 0;
     color: #B3B3B3;
     font-size: smaller;
+}
+
+/* Flex-banner */
+
+.flexive{
+    width: fit-content;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 14px;
+    box-shadow: 0 4px 100px #F2EDED;
+    padding: 71px 150px;
+    margin: auto;
+}
+
+.flexive h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.flexive p{
+    color: #B3B3B3;
+    font-size: smaller;
+    font-weight: normal;
+    margin: 20px 0;
+}
+.flexive img{
+    display: block;
+    margin: auto;
+    border-radius: 48px;
+    padding: 20px 0;
 }
