@@ -231,3 +231,34 @@ body{
     border-radius: 48px;
     padding: 20px 0;
 }
+
+/* Contact Page  */
+.contact-page{
+    display: flex;
+    margin: 50px 190px;
+    padding: 71px 0;
+}
+.left-hand h2{
+    font-size: 97px;
+    font-weight: bold;
+}
+.right-hand form{
+    display: block;
+    text-align: left;
+}
+.right-hand form input,#message{
+    padding: 20px 32px;
+    margin: 10px 0;
+    width: 350px;
+    border: 2px solid #d6dded82;
+    border-radius: 10px;
+    box-shadow: 0 4px 100px #F2EDED;
+}
+#message{
+    height: 80px;
+    font-weight: normal;
+    resize: none;
+}
+.btn-touch{
+    width: 418px;
+}
