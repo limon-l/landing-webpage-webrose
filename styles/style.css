@@ -22,7 +22,7 @@ body{
 .hero-section{
     background-image: url('../Assets/Hero-bg.png');
     height: 698px;
-    width: 1440px;
+    max-width: 100%;
     background-size: cover;
     background-position: center;
 }
