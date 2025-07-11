@@ -1,11 +1,4 @@
-/* .open-sans-bolder , body{
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
-} */
+/* / Fonts / */
 .raleway-normal , body{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -20,6 +13,7 @@
 }
 body{
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 /*--------------------
@@ -39,6 +33,11 @@ body{
     background-color: #4E47FF;
     color: white;
     font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.button-universal:hover{
+    transform: scale(1.1);
 }
 .button-universal a{
     text-decoration: none;
@@ -57,7 +56,7 @@ body{
 .hero-nav nav ul a{
     color: #4E47FF;
     text-decoration: none;
-    font-size: 34px;
+    font-size: 40px;
     font-weight: 800;
 }
 .hero-content{
@@ -261,4 +260,36 @@ body{
 }
 .btn-touch{
     width: 418px;
+}
+
+/* Footer  */
+footer{
+    box-shadow: 0 4px 100px #F2EDED;
+    display: flex;
+    align-items: center;
+
+}
+.footer-content{
+    text-align: center;
+    margin: 100px auto;
+    padding: auto;
+    width: 35vw;
+}
+.footer-content a,p{
+    text-decoration: none;
+    color: #8987A1;
+    font-weight: normal;
+}
+.footer-content>a {
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: 700;
+}
+.page-links li{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+.page-links{
+    margin-top: 25px;
 }
